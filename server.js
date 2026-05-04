@@ -201,3 +201,5 @@ app.listen(port, () => {
     console.log(`BreakupGPT Backend running on http://localhost:${port}`);
     console.log(`Gemini Keys Loaded: ${geminiKeys.length}`);
 });
+
+export default app;
